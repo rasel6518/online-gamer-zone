@@ -239,6 +239,49 @@ header {
     right: 100px;
 }
 
+.btn-group img {
+    border-radius: 50px;
+    width: 30%;
+    padding-top: 6px;
+
+
+}
+
+.pera {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+
+}
+
+.game-btn button {
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    font-size: 16px;
+    background: 0;
+    border: 0;
+
+}
+
+button:hover {
+    border-radius: 30px;
+    border: 2px solid salmon;
+    color: #F948B2;
+}
+
+.btn-group>span {}
+
+.btn-1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+
+
+}
+
+
 @media screen and (max-width:425px) {
 
     header,
