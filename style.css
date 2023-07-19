@@ -181,6 +181,52 @@ header {
     line-height: 30px;
 }
 
+#card {
+    position: relative;
+}
+
+#card div {
+    position: absolute;
+    top: 40%;
+    right: 55%;
+    left: 45%;
+
+}
+
+.btn-p {
+
+    display: none;
+
+}
+
+#content:hover .btn-p {
+    background-color: #534C64;
+    display: block;
+
+
+
+}
+
+.btn-p button {
+
+
+    padding-right: 55px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+
+
+
+}
+
+.btn-p p {
+    color: #FF42A5;
+    font-size: 15px;
+
+    width: 100px;
+
+}
+
 /* .hover1 {
     display: none;
     position: relative;
