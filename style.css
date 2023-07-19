@@ -82,6 +82,9 @@ header {
     width: 50%;
     text-align: center;
     padding: 150px;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-content h3 {
@@ -247,11 +250,20 @@ header {
 
 }
 
-.pera {
+/*  .pera {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin: 0 auto;
+    margin: 0 auto; 
 
+} */
+
+.pera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 100px 100px 100px;
 }
 
 .game-btn button {
@@ -262,24 +274,92 @@ header {
     background: 0;
     border: 0;
 
+
 }
 
-button:hover {
+.game-btn button:hover {
     border-radius: 30px;
-    border: 2px solid salmon;
+    border: 2px solid rgb(235, 77, 206);
     color: #F948B2;
 }
 
 .btn-group>span {}
 
-.btn-1 {
-    /* display: flex;
+footer {
+    min-height: 400px;
+    border: 3px solid red;
+    background-color: black;
+}
+
+.footer-title h1 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.footer-title h1 span {
+    color: #FF42A5;
+}
+
+.footer-title h1 img {
+    text-align: center;
+}
+
+.footer-nav-container ul {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; */
-
+    gap: 50px;
+    margin-top: 70px;
+    list-style: none;
+    font-size: 18px;
 
 }
+
+.footer-nav-container ul li {}
+
+.footer-nav-container ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    font-size: 2rem;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 40px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+
 
 
 @media screen and (max-width:425px) {
